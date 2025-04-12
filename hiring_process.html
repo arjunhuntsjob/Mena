@@ -1,0 +1,518 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MENA Support Service Limited</title>
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700%7CDroid+Serif:300,400,700,400italic">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+    <script src="js/min/scripts-min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        $(document).ready(function () {
+        var organisation = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+           // alert("Hello " + organisation);
+            if ($this.hasClass('active')) {
+                $this.removeClass('active');
+                alert("Hello1 " + organisation);
+                if (organisation == "screening") {
+                    //$('#tab1').removeClass('active');
+                    //$('#uou-tab-1v').removeClass('active');
+                    $('#tab2').addClass('active');
+                    $('#uou-tab-2v').addClass('active');
+                }
+                else if (organisation == "selection") {
+                    //$('#tab1').removeClass('active');
+                    //$('#uou-tab-1v').removeClass('active');
+                    $('#tab3').addClass('active');
+                    $('#uou-tab-3v').addClass('active');
+                }
+                else if (organisation == "medical") {
+                    //$('#tab1').removeClass('active');
+                    //$('#uou-tab-1v').removeClass('active');
+                    $('#tab4').addClass('active');
+                    $('#uou-tab-4v').addClass('active');
+                }
+                else if (organisation == "mobilization") {
+                    //$('#tab1').removeClass('active');
+                    //$('#uou-tab-1v').removeClass('active');
+                    $('#tab5').addClass('active');
+                    $('#uou-tab-5v').addClass('active');
+                }
+            }
+            else {
+                $('#tab1').removeClass('active');
+                $('#uou-tab-1v').removeClass('active');
+            }
+        });
+    </script>
+</head>
+<body>
+    <div id="main-wrapper">
+
+        <div class="header-nav">
+            <div class="box-shadow-for-ui">
+                <div class="uou-block-2b icons">
+                    <div class="container">
+                        <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+                        <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
+                        <nav class="nav">
+                            <ul class="sf-menu">
+                                <li>
+                                    <a href="index.html"><i class="fa fa-home"></i> Home</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-user"></i> About Us</a>
+                                    <ul class="demo-menu">
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="organisational_structure.html">Organisational Structure</a></li>
+                                        <li><a href="infrastructure.html"> Gallery </a></li>
+                                        <li><a href="OurClients.html"> Our Clients </a></li>
+                                        <li><a href="licence.html"> Licence </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="why_us.html">
+                                        <div class="icon-change">
+                                            <img src="img/why-us-icon.png" alt="Card Back">
+                                            <img src="img/why-us-hover.png" class="img-top" alt="Card Front">
+                                        </div>
+                                        Why Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.asmacsskills.com" target="_blank"><i class="fa fa-users"></i>Skill Development</a>
+                                </li>
+                                <li>
+                                    <a href="jobs.html"><i class="fa fa-search-plus"></i> Jobs</a>
+                                <li class="active">
+                                    <a href="hiring_process.html"><i class="fa fa-suitcase"></i> Hiring Process</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-shield"></i> Services </a>
+                                    <ul class="demo-menu">
+                                        <li><a href="recruitment.html">Recruitment and Training</a></li>
+                                        <li><a href="specialist_support_services.html"> Specialist Support Services</a></li>
+                                        <li><a href="crew_management.html"> Crew Management</a></li>
+                                        <li><a href="ship_repairing.html">Ship Repairing</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="csr.html">
+                                        <div class="icon-change1">
+                                            <img src="img/csr-hover.png" class="img-top" alt="Card Front">
+                                            <img src="img/csr-icon.png" alt="Card Back">
+                                        </div>
+                                        CSR
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html"><i class="fa fa-phone-square"></i> Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div> <!-- end .uou-block-2b -->
+            </div>
+        </div> <!-- edn header-navm -->
+
+        <div class="uou-block-3a">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="index.html">Home</a></li>
+                    <li><span>Hiring Process</span></li>
+                    <!--</ul><ul class="pagination">
+                      <li><a href="#"><i class="fa fa-angle-left"></i> Prev</a></li>
+                      <li><a href="#">Back</a></li>
+                      <li><a href="#">Next <i class="fa fa-angle-right"></i></a></li>
+                    </ul>-->
+            </div>
+        </div>
+        <div class="subheader subheader-v2 has-bg-image" data-bg-image="img/profile-company-header.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="subheader-title" style="color:white;">Hiring Process</h3>
+                        <p class="block-secondary-title invert" style="text-align:center"></p>
+                    </div>
+                    <!--<div class="col-md-12 text-center">
+                      <h1 class="block-title">Hiring Process</h1>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+
+        <section class="demo-section">
+            <h6 class="demo-section-title container">Hiring Process</h6>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="uou-tabs vertical">
+                            <ul class="tabs">
+                                <li class="active" id="tab1"><a href="#uou-tab-1v">Resume Search - Resources</a></li>
+                                <li id="tab2"><a href="#uou-tab-2v">Screening Process</a></li>
+                                <li id="tab3"><a href="#uou-tab-3v">Final Interview / <br />Selection Process</a></li>
+                                <li id="tab4"><a href="#uou-tab-4v">Post Interview Process </a></li>
+                                <li id="tab5"><a href="#uou-tab-5v">Mobilization</a></li>
+                                <li id="tab6"><a href="#uou-tab-6v">Ticketing</a></li>
+                                <li id="tab7"><a href="#uou-tab-7v">Orientation </a></li>
+                                <li id="tab8"><a href="#uou-tab-8v">Airport Activities</a></li>
+                                <li id="tab9"><a href="#uou-tab-9v">Service Fee</a></li>
+                            </ul>
+                            <div class="content" style="margin-left:22%">
+                                <div class="mglt10 active" id="uou-tab-1v">
+                                    <h6>Resume Search - Resources</h6>
+                                    <ul class="list-icon">
+                                        <li><i class="fa fa-circle"></i> DATABANK </li>
+                                        <li><i class="fa fa-circle"></i> JOB PORTAL </li>
+                                        <li><i class="fa fa-circle"></i> BRANCH OFFICES ACROSS INDIA & OVERSEAS </li>
+                                        <li><i class="fa fa-circle"></i> ADVERTISEMENTS </li>
+                                        <li><i class="fa fa-circle"></i> DISTRICT EMPLOYMENT AND MANPOWER OFFICES </li>
+                                        <li><i class="fa fa-circle"></i> SPECIALISED AGENCIES </li>
+                                        <li><i class="fa fa-circle"></i> WORKERS WELFARE ASSOCIATIONS </li>
+                                        <li><i class="fa fa-circle"></i> INDUSTRIAL TRAINING INSITITUTES / VOCATIONAL / PROFESSIONAL CENTRES </li>
+                                        <li><i class="fa fa-circle"></i> HEAD HUNTING </li>
+                                    </ul>
+                                </div>
+                                <div id="uou-tab-2v" class="mglt10">
+                                    <h6>Screening Process</h6>
+                                    <p>
+                                        Based on the needs of position from our clients, our Sourcing Department sieves through the data available at
+                                        our, identifies the most appropriate ones, in accordance with clients’ job specifications, industry-relevance,
+                                        qualifications, experience and nationality.
+                                    </p>
+                                    <p>
+                                        All our offices located inregions and countries, if required, do the screening process simultaneously.
+                                        After the screening process, the processed portfolios are forwarded to the respective in house departments concerned viz.
+                                        Engineering, Civil Construction, Marin, Oil & gas, Hospitality, Health Care and Management for in-depth review of the resume,
+                                        Communication  with prospects to ascertain their interest /available, prior assigning such processed resumes to clients for their review.
+                                    </p>
+                                    <p>
+                                        Simultaneously, our Operation Department works on referral checks, certificates verification, police clearance,
+                                        as and when necessary, and the travel documents.
+                                    </p>
+                                    <p>
+                                        Trade test- If and when applicable and as necessary, trade test of skills are conducted at MENA training centers
+                                        as per the guidelines of clients. In the event of special test involving 3rd party inspection MENA coordinates and
+                                        organizes 3rd party agency of repute whose report is valid and accepted internationally.
+                                    </p>
+                                    <p>
+                                        The pre-screened candidates are called to our offices for personal interview, and for evaluation of basic skills,
+                                        job –specific skill / knowledge, aptitude and attitude, medical status, and language proficiency.
+                                        A comprehensive evaluation report is prepared and forwarded to clients along with pre-screened resumes.
+                                    </p>
+                                </div>
+                                <div id="uou-tab-3v" class="mglt10">
+                                    <h6> FINAL INTERVIEW / SELECTION PROCESS </h6>
+                                    <p> MENA ORGNISE INTERVIEW DEPENDING ON THE VOLUME OF REQUIREMENTS USING FOLLOWING METHODOLOGY </p>
+                                    <ol>
+                                        <li> FACE TO FACE INTERVIEW BETWEEN CLIENT AND CANDIDATES </li>
+                                        <li> VIDEO CONFERENCE FACILITY </li>
+                                        <li> SKYPE </li>
+                                        <li> TELEPHONIC / IOM </li>
+                                    </ol>
+                                    <p>
+                                        In the event of Interview through video conferencing, we assemble the approved candidate,
+                                        batch-wise, in our office and keep our client advised on the timing for each candidate.
+                                    </p>
+                                    <p>
+                                        MENA makes all interview arrangements - conference  hall/interview hall with individual cabin for the visiting delegates,
+                                        sufficient seating arrangement for the short-listed, stationary, secretarial assistance and communication facilities,
+                                        A team of experienced staff co-ordinates, distribute test pares for written test as and when applicable,
+                                        provides entry pass and regulates the candidates test. MENA staff will have close coordination with the visiting
+                                        delegates at all times and will help compiles final selection status report.
+                                    </p>
+                                    <p>
+                                        In addition to the facilities for personal Interview and trade test MENAS VIDEO COFRENCING facilities are also
+                                        available for a fee which will be determined in accordance with number of prospective candidatesto to be Interviewed, place city and a host
+                                        of other parameters involved (an estimate could be made available against specific request with details) MENA can
+                                        also render the services of conducting interview and selecting the candidate, for and on behalf of clients MENA's
+                                        technical evaluation team from appropriate department shall scrutinize resume critically, conduct trade test / personal
+                                        interview, before being deployed for work client.
+                                    </p>
+                                </div>
+                                <div id="uou-tab-4v" class="mglt10">
+                                    <h6>POST INTERVIEW PROCESS</h6>
+                                    <ul class="list-icon">
+                                        <li><i class="fa fa-circle"></i>OBTAINING FINAL CONFIRMATION FROM THE CLLIENT AND THE CANDIDATES</li>
+                                        <li><i class="fa fa-circle"></i> PRE-MEDICAL CHECK UP </li>
+                                        <li><i class="fa fa-circle"></i> BACKGOUND CHECK / REFERENCE CHECK </li>
+                                    </ul>
+                                </div>
+                                <div id="uou-tab-5v" class="mglt10">
+                                    <h6>Mobilization</h6>
+                                    <p>
+                                        Clients forward visa copy or original visa of the selected candidates to MENA. On receipt of such documents MENA invites the candidates
+                                        traveling to the host country, to hand over the documents, check for correctness of documents, immigration clearance,
+                                        certificates’ endorsement and other paper works to be in order. MENA carries its own identification tags and such tags
+                                        are distributed to each candidate with employer’s contact details for easy identification at the arrival airport.
+                                    </p>
+                                </div>
+                                <div id="uou-tab-6v" class="mglt10">
+                                    <h6>Ticketing</h6>
+                                    <p>
+                                        Depending upon the mutual understanding between the foreign principal & Recruitment Agency the arrangement for air ticket is made.
+                                    </p>
+                                </div>
+                                <div id="uou-tab-7v" class="mglt10">
+                                    <h6>Orientation</h6>
+                                    <p>
+                                        Orientation is important because it lays a foundation for the new employee's entire career with the department. ... Encourages employee
+                                        confidence and helps the new employee adapt faster to the job; Contributes to a more effective, productive workforce; Improves employee retention; and.
+                                    </p>
+                                    <h6>Some of the Questions Covered during Orientation.</h6>
+                                    <ul class="list-icon">
+                                        <li><i class="fa fa-circle"></i> Contract and Benefits </li>
+                                        <li><i class="fa fa-circle"></i> Salary and Position </li>
+                                        <li><i class="fa fa-circle"></i> About Company </li>
+                                        <li><i class="fa fa-circle"></i> How long are the employment contracts? </li>
+                                        <li><i class="fa fa-circle"></i> What happens if I don't like living in Country  and don’t feel I can complete my contract? </li>
+                                        <li><i class="fa fa-circle"></i> Can I bring my family? </li>
+                                        <li><i class="fa fa-circle"></i> Where will I live? </li>
+                                        <li><i class="fa fa-circle"></i> Do I have to share my apartment/house ( In case very Sr. Professional) </li>
+                                        <li><i class="fa fa-circle"></i> How much vacation am I entitled to? </li>
+                                        <li><i class="fa fa-circle"></i> When will I be able to take a vacation, and for how long can I go away? </li>
+                                        <li><i class="fa fa-circle"></i> Can I leave the Kingdom on vacation whenever I want? </li>
+                                        <li><i class="fa fa-circle"></i> What kind of healthcare coverage am I entitled to? </li>
+                                        <li><i class="fa fa-circle"></i> I take prescription medication. Can I get it there, or should I bring it with me? </li>
+                                        <li><i class="fa fa-circle"></i> Who pays for my flight? </li>
+                                        <li><i class="fa fa-circle"></i> If I book my own flight, will the hospital pay me back for it? </li>
+                                        <li><i class="fa fa-circle"></i> What does "tax-free income" mean? </li>
+                                        <li><i class="fa fa-circle"></i> What is the currency in Saudi Arabia? </li>
+                                        <li><i class="fa fa-circle"></i> How am I paid? </li>
+                                        <li><i class="fa fa-circle"></i> How easy is it to open a bank account? </li>
+                                    </ul>
+                                </div>
+                                <div id="uou-tab-8v" class="mglt10">
+                                    <h6> AIRPORT RELATED ACTIVITIES </h6>
+                                    <p>
+                                        In case of bulk mobilization, MENA Limited sends its PRO   to airport for ensuring the candidates are present and boarding the planes.
+                                    </p>
+                                    <p>
+                                        PRO gives the verbal report to Recruitment Manager/ Recruiter in order to inform foreign principal in case of any no show.
+                                    </p>
+                                    <p>
+                                        MENA Limited does not stop here but goes one step further requesting its client to confirm the safe arrival of candidates.
+                                        Though Profit is like Oxygen to any company / business, but we at MENA Limited believes that
+                                        <strong>“Customer (both client and candidates) is the Big Boss.</strong>
+                                    </p>
+                                </div>
+                                <div id="uou-tab-9v" class="mglt10">
+                                    <h6>Service Fee</h6>
+                                    <p>
+                                        MENA charge a nominal fee of 10% of annual gross salary of office staff / Field staff / foreman and above.
+                                    </p>
+                                    <p>
+                                        For junior level / skilled / semi-skilled / un-skilled positions, MENA charge a reasonable recruitment fee,
+                                        payable either by employer or employee as per the agreement.
+                                    </p>
+                                    <p>
+                                        In the case where the employer wishes MENA to charge the employees, it is in accordance with governments specified terms.
+                                    </p>
+                                    <p>MENA do not levy any charges on the employee if the employer compensates MENA of their service fee.</p>
+                                </div>
+                            </div>
+                        </div> <!-- end .uou-tabs -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="uou-block-4e has-bg-image" data-bg-color="ffffff">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-8">
+                        <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+                        <ul style="background-image: url(&quot;img/footer-map-bg.png&quot;);" class="contact-info has-bg-image contain" data-bg-image="img/footer-map-bg.png">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <address>
+                                    Office No. 14, Options Primo, 21st Road Marol MIDC Industrial Estate, Andheri (East),
+                                    <br /> Mumbai – 400069 Maharashtra, India
+                                </address>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <a href="tel:#">+9122 61041786 (20 Lines) </a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <a href="mailto:#">info@menalimited.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--<div class="col-md-3 col-sm-6">
+                      <h5>Twitter Feed</h5>
+
+                      <ul class="twitter-feed">
+                        <li>
+                          RT <a href="#">@no1son</a>: Now this <a href="#">http://t.co/TSfMW1qMAW</a> is one hell of a stunning site!!! Awesome work guys <a href="#">@AIRNAUTS</a>
+                          <a href="#" class="time">May 25</a>
+                        </li>
+
+                        <li>
+                          Check out the wordpress version of Tucson - <a href="#">http://t.co/sBlU3GbapT</a>
+                          <a href="#" class="time">May 22</a>
+                        </li>
+                      </ul>
+                    </div>-->
+                    <div class="col-md-4 col-sm-8">
+                        <h5>Photostream</h5>
+                        <ul class="photos-list">
+                            <li><a href="infrastructure.html"><img src="img/photostream4.jpg" alt=""></a></li>
+                            <li><a href="infrastructure.html"><img src="img/photostream6.jpg" alt=""></a></li>
+                            <li><a href="infrastructure.html"><img src="img/photostream3.jpg" alt=""></a></li>
+                            <li><a href="infrastructure.html"><img src="img/photostream2.jpg" alt=""></a></li>
+                            <li><a href="infrastructure.html"><img src="img/photostream1.jpg" alt=""></a></li>
+                            <li><a href="infrastructure.html"><img src="img/photostream.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-8">
+                        <h5>Newsletter</h5>
+                        <p>Subscribe to our newsletter to receive our latest news and updates. We do not spam.</p>
+                        <form class="newsletter-form" method="post">
+                            <input placeholder="Enter your email address" class="txtEmail" type="email" />
+                            <input class="btn btn-success btnSubscribe" value="Subscribe" type="button" />
+                        </form>
+                        <div class="text-center">
+                            <span class="spnsuc dn"></span><span class="spnerr dn"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uou-block-4a secondary">
+            <div class="container">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+                <p>Copyright © 2017<a href="http://www.espiresystem.com/" target="_blank"> Espire System Pvt Ltd. </a> All Rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    <div id="footerpopup" style="display: none">
+        <div class="describediv">
+            <div class="col-md-12 contact-form">
+                <div class="row" style="margin:10px 0px">
+                    <div class="col-md-11 pull-left">
+                        <span style="color:#fff;font-size:20px;" align="center">Tell us what you are looking for?</span>
+                    </div>
+                    <div class="col-md-1 pull-right">
+                        <div class="close modalMinimize"><i class='fa fa-minus' style="cursor:pointer;"></i></div>
+                    </div>
+                </div>
+                <textarea name="message" id="discribemessage" class="discribemessage" placeholder="Describe your requirement in detail:"></textarea>
+                <input type="text" id="txtdName" class="txtdName" placeholder="Enter Your Name:" />
+                <div class="col-md-6">
+                    <input type="text" id="txtdEmail" class="txtdEmail" placeholder="Enter Your Email:" />
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="txtdPhone" class="txtdPhone" placeholder="Phone Number:" />
+                </div>
+                <div class="text-center">
+                    <span class="spnerror"></span>
+                </div>
+                <div class="text-center">
+                    <input type="button" runat="server" value="Send message" class="btn btn-success btndSubmit" />
+                </div>
+            </div>
+        </div>
+        <div class="checkCircle dn">
+            <div class="checkmark-circle" style="margin-left:188px;margin-right:188px;margin-top:50px">
+                <div class="background1"></div>
+                <div class="checkmark draw"></div>
+            </div><br />
+            <h2 style="color:white;padding-left: 200px;margin-top:10px;">Thank You</h2>
+        </div>
+    </div>
+    <div class="minmaxCon dn"><p style="float:left;margin-left:10px">Submit your Requirement</p><i class='fa fa-plus-square maxico'></i></div>
+
+    <div class="ebrocher"><span class="spanebroch">E<br />b<br />r<br />o<br />c<br />h<br />u<br />r<br />e</span><i class=""></i></div>
+
+    <div class="ebrocherhover" style="display:none;">
+        <div align="center" style="font-size:12px;">E brochure</div>
+        <div class="ebrocherimgdiv ">
+            <a target="_blank" href="media/MENA SUPPORT SERVICE__With Compress.pdf">
+                <img class="alignleft ebrocherimg wp-image-15661 size-thumbnail" alt="Ebrochure"
+                     src="media/MENA SUPPORT SERVICE__With Compress-page-001.jpg">
+            </a>
+        </div>
+        <div align="center" style="font-size:12px;">MENA Co. Profile</div>
+        <div class="ebrocherimgdiv ">
+            <a href="media/MENA Co. Profile.ppsx" download>
+                <img class="alignleft ebrocherimg wp-image-15661 size-thumbnail" alt="MENAProfile"
+                     src="media/ppt.png">
+            </a>
+        </div>
+        <div align="center" style="font-size:12px;">MENA Certificates</div>
+        <div class="ebrocherimgdiv ">
+            <a href="media/Scan_Mena_Support_Service_Limited_ISMS.pdf" target="_blank">
+                <img class="alignleft certificateimg wp-image-15661 size-thumbnail" alt="MENACertificate"
+                     src="media/Scan_Mena_Support_Service_Limited_ISMS.jpg">
+            </a>
+            <a href="media/Scan_Mena_Support_Service_Limited_OHSAS.pdf" target="_blank">
+                <img class="alignleft certificateimg wp-image-15661 size-thumbnail" alt="MENACertificate"
+                     src="media/Scan_Mena_Support_Service_Limited_OHSAS.jpg">
+            </a>
+            <a href="media/Scan_Mena_Support_Service_Limited_QMS.pdf" target="_blank">
+                <img class="alignleft certificateimg wp-image-15661 size-thumbnail" alt="MENACertificate"
+                     src="media/Scan_Mena_Support_Service_Limited_QMS.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="uou-block-11a">
+        <h5 class="title">Menu</h5>
+        <a href="#" class="mobile-sidebar-close">&times;</a>
+        <nav class="main-nav">
+            <ul>
+                <li class="active"> <a href="index.html"> Home</a></li>
+                <li class="active"><a href="#"> About Us</a></li>
+                <li class="pl10"><a href="about.html">About</a></li>
+                <li class="pl10"><a href="organisational_structure.html">Organisational Structure</a></li>
+                <li class="pl10"><a href="infrastructure.html">Gallery</a></li>
+                <li class="pl10"><a href="OurClients.html">Our Clients</a></li>
+                <li class="active"><a href="why_us.html">Why Us</a></li>
+                <li class="pl10"><a href="http://www.asmacsskills.com" target="_blank">Skill Development</a></li>
+                <li class="active"><a href="jobs.html"> Jobs</a></li>
+                <li class="active"> <a href="hiring_process.html">Hiring Process</a></li>
+                <li class="active"><a href="#"> Services</a></li>
+                <li class="pl10"><a href="recruitment.html">Recruitment and Training</a></li>
+                <li class="pl10"><a href="specialist_support_services.html"> Specialist Support Services</a></li>
+                <li class="pl10"><a href="crew_management.html"> Crew Management</a></li>
+                <li class="pl10"><a href="ship_repairing.html">Ship Repairing</a></li>
+                <li class="active"><a href="csr.html">CSR</a></li>
+                <li class="active"> <a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins/superfish.min.js"></script>
+    <script src="js/jquery.ui.min.js"></script>
+    <script src="js/plugins/rangeslider.min.js"></script>
+    <script src="js/plugins/jquery.flexslider-min.js"></script>
+    <script src="js/uou-accordions.js"></script>
+    <script src="js/uou-tabs.js"></script>
+    <script src="js/plugins/select2.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/gmap3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/SendMailScript.js"></script>
+</body>
+</html>
